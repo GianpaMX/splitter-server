@@ -1,0 +1,3 @@
+rootProject.name = 'splitter-server'
+
+include ':core', ':common-features', ':groups', ':app'
