@@ -7,6 +7,10 @@ version '1.0-SNAPSHOT'
 
 dependencies {
     api project(':common-features')
+
+    testImplementation 'junit:junit:4.12'
+    testImplementation "org.mockito:mockito-core:2.28.2"
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0"
 }
 
 compileKotlin {
